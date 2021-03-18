@@ -56,7 +56,7 @@ Visualising Training and Validation Loss Patterns:
 Assumptions made and changes needed as part of other machines:
 --------------------------------------------------------------
 - We made our evaluation scripts on a cpu machine, so small changes are needed to make the same script run on a gpu device. For example; torch.load(map)
-- As part of the code, we have handled the creation of empty folder like .DS_Store but in practice errors related to this should have to be handled. 
+- As part of the code, we have handled the creation of empty folder like .DS_Store but in practice errors related to this are expected and has to be handled. 
 
 
 
